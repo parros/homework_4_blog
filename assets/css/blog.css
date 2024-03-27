@@ -1,0 +1,15 @@
+footer {
+    border-top: 10px double;
+    padding-left: 10px;
+}
+body {
+    margin: 0;
+}
+
+section {
+    padding-left: 10px;
+}
+
+#madeBy {
+    text-align: center;
+}
