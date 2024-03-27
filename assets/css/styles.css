@@ -1,0 +1,30 @@
+nav h1 {
+    display: inline;
+    padding: 0 10px;
+    margin-top: -20px;
+}
+
+nav {
+padding-top: 15px;
+}
+
+nav p {
+    display: flex;
+    justify-content: right;
+    padding: 0 10px;
+    margin-top: -20px;
+}
+
+nav button {
+    padding: 0 10px;
+}
+
+#sun {
+    margin-top: -15px;
+    font-size: 200%; 
+    padding: 0 10px;
+}
+
+section{
+    border-top: 10px double;
+}

@@ -5,27 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/form.css">
 </head>
 
 <body>
-    <h1>My First Blog</h1>
+
+    <nav>
+        <!-- helps maintain spacing -->
+        <h1></h1>
+        <p><span id="sun">&#9728;</span></p>
+    </nav>
 
     <section>
-        <h2>What's on your mind?</h2>
-        <form action="blog.html" method="get">
-            <label for="Username">Username</label>
-            <input type="text" id="username" name="username">
+        <h1 id="myBlog">My First Blog</h1>
+        <div>
+            <h2>What's on your mind?</h2>
+            <form action="blog.html" method="get">
+                <label for="Username">Username</label>
+                <input type="text" id="username" name="username">
+                <br>
 
-            <label for="title">Title</label>
-            <input type="text" id="title" name="title">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title">
+                <br>
+                <label for="Content">Content</label>
+                <input type="text" id="content" name="content">
 
-            <label for="Content">Content</label>
-            <input type="text" id="content" name="content">
+                <input type="submit" id="submit" value="Submit">
 
-            <input type="submit" value="Submit">
-
-        </form>
+            </form>
+        </div>
 
     </section>
 
@@ -35,6 +45,6 @@
 
 
     <script src="assets/js/form.js">
-    <script src="assets/js/logic.js">
-</body>
+        <script src="assets/js/logic.js">
+        </body>
 </html >
