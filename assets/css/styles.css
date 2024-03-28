@@ -1,11 +1,11 @@
+nav {
+    padding-top: 2%;
+}
+
 nav h1 {
     display: inline;
     padding: 0 10px;
     margin-top: -20px;
-}
-
-nav {
-    padding-top: 2%;
 }
 
 nav p {
@@ -21,16 +21,12 @@ nav button {
 
 #sun {
     margin-top: -15px;
-    font-size: 200%; 
+    font-size: 200%;
     padding: 0 10px;
 }
 
 #sun:hover {
     cursor: pointer;
-}
-
-section{
-    border-top: 10px double;
 }
 
 #light-theme {
@@ -45,23 +41,27 @@ section{
     border: white;
 }
 
-#dark-theme button{
+#dark-theme button {
     background-color: white;
     color: black;
 }
 
-#light-theme button{
+#light-theme button {
     background-color: black;
     color: white;
 }
 
-#light-theme #submit{
+#light-theme #submit {
     background-color: black;
     color: white;
 }
 
-#dark-theme #submit{
+#dark-theme #submit {
     background-color: white;
     color: black;
 
+}
+
+section {
+    border-top: 10px double;
 }

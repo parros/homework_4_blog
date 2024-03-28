@@ -1,17 +1,9 @@
-footer {
-    border-top: 10px double;
-    padding-left: 10px;
-}
 body {
     margin: 0;
 }
 
 section {
     padding: 10px;
-}
-
-#madeBy {
-    text-align: center;
 }
 
 ul {
@@ -24,4 +16,17 @@ ul {
 
 .pU {
     color: gray;
+}
+
+footer {
+    border-top: 10px double;
+    padding-left: 10px;
+}
+
+#madeBy {
+    text-align: center;
+}
+
+#heart {
+    color: red;
 }

@@ -18,7 +18,7 @@ function themeSwitch(event) {
     }
 }
 
-function currentTheme (event) {
+function currentTheme(event) {
     if (mode === 'light') {
         lightMode.setAttribute('id', 'light-theme')
     } else {
