@@ -6,26 +6,31 @@ html {
 body{
     height: 100%;
     margin: 0;
+    padding: 0;
 }
+
 
 section {
     margin: 0 0px;
     display: flex;
     padding: 0;
-    height: 90%;
+    height:89.5%;
 }
 
 #myBlog {
-    width: 45%;
-    margin: 10px 0 0 0;
-    text-align: center;
-    padding-top: 20%;
+    font-size: 50px;
+    width: 40%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,40,167,1) 0%, rgba(0,104,186,1) 50%, rgba(19,233,254,1) 100%);
+    border-radius: 100% 100% 100% 100%;
 }
 
 div {
-    height: 80%;
+    height: 100%;
     width: 45%;
-    padding-top: 10%;
     padding-left: 20px;
     border-left: 10px double;
 }
@@ -49,4 +54,3 @@ input {
     text-align: center;
     padding: 5px 0;
 }
-

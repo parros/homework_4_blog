@@ -7,9 +7,21 @@ body {
 }
 
 section {
-    padding-left: 10px;
+    padding: 10px;
 }
 
 #madeBy {
     text-align: center;
+}
+
+ul {
+    border: 2px solid;
+}
+
+.pT {
+    border-bottom: 1px solid;
+}
+
+.pU {
+    color: gray;
 }
