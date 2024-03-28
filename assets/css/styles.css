@@ -25,6 +25,20 @@ nav button {
     padding: 0 10px;
 }
 
+#sun:hover {
+    cursor: pointer;
+}
+
 section{
     border-top: 10px double;
+}
+
+#light-theme {
+    background-color: white;
+    color: black;
+}
+
+#dark-theme {
+    background-color: black;
+    color: white;
 }
