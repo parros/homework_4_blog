@@ -1,3 +1,7 @@
+:root {
+    --white-color: white;
+    --black-color: black;
+}
 nav {
     padding-top: 2%;
 }
@@ -30,35 +34,35 @@ nav button {
 }
 
 #light-theme {
-    background-color: white;
-    color: black;
-    border: black
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border: var(--black-color);
 }
 
 #dark-theme {
-    background-color: black;
-    color: white;
-    border: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border: var(--white-color);
 }
 
 #dark-theme button {
-    background-color: white;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--black-color);
 }
 
 #light-theme button {
-    background-color: black;
-    color: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 #light-theme #submit {
-    background-color: black;
-    color: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 #dark-theme #submit {
-    background-color: white;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--black-color);
 
 }
 

@@ -5,7 +5,7 @@ const darkMode = document.getElementById('dark-theme')
 let mode = localStorage.getItem('theme') || 'light'
 
 currentTheme()
-
+// swaps current theme
 function themeSwitch(event) {
     if (mode === 'light') {
         mode = 'dark'
@@ -18,6 +18,7 @@ function themeSwitch(event) {
     }
 }
 
+// keeps theme between htmls
 function currentTheme(event) {
     if (mode === 'light') {
         lightMode.setAttribute('id', 'light-theme')
