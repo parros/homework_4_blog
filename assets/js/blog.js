@@ -1,3 +1,4 @@
+// pulls information from local storage to display to user
 function renderPosts() {
     const postInfo = JSON.parse(localStorage.getItem('postInfo'))
     if (postInfo !== ' ') {
